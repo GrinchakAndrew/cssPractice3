@@ -1,0 +1,96 @@
+html, body {
+	width : 100%;
+	height : 100%;
+}
+	.wrapper[index="1"] { 
+		margin: 0 auto;
+		width: 75%;
+	}
+		.wrapper[index="1"] {
+			width: 75%;
+			margin: 0 auto;
+		}
+			.wrapper[index="1"] .row{
+				width: 60%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.wrapper[index="1"] .row{
+				/*why 'margin : 0 auto;' style will not accomplish centering here, if we have got the width of container setup less than that of its parent?*/
+				background-color : #ccc;
+			}
+			
+				.wrapper[index="1"] .row div {
+					display: inline-block;
+					text-align: left;
+					width: 25%;
+				}
+				.wrapper[index="1"] .row div:nth-child(odd) {
+					background-color : yellow;
+				}	
+				.wrapper[index="1"] .row div:nth-child(even) {
+					background-color : green;
+				}	
+				.wrapper[index="1"] .row div:nth-child(1n+3) {
+					background-color : red;
+				}
+			
+	.wrapper[index="2"] { 
+		margin: 0 auto;
+		width: 75%;
+	}
+		.wrapper[index="2"] {
+			width: 75%;
+			margin: 0 auto;
+		}
+			.wrapper[index="2"] .row{
+				width: 60%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.wrapper[index="2"] .row{
+				/*why 'margin : 0 auto;' style will not accomplish centering here, if we have got the width of container setup less than that of its parent?*/
+				background-color : #ccc;
+			}
+			
+				.wrapper[index="2"] .row div {
+					display: inline-block;
+					text-align: left;
+					width: 25%;
+				}
+				
+					.wrapper[index="2"] .row div:nth-child(odd) {
+						background-color : yellow;
+					}	
+					.wrapper[index="2"] .row div:nth-child(even) {
+						background-color : green;
+					}	
+					.wrapper[index="2"] .row div:nth-child(1n+3) {
+						background-color : red;
+					}
+			
+	.wrapper[index="3"] { 
+		margin: 0 auto;
+		width: 75%;
+	}
+		.wrapper[index="3"] {
+			width: 75%;
+			margin: 0 auto;
+		}
+			.wrapper[index="3"] .row {
+				width: 60%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.wrapper[index="3"] .row {
+				background-color : #ccc;
+			}
+				.wrapper[index="3"] .row div {
+					display: inline-block;
+					text-align: left;
+					width: 25%;
+				}
+				
+				.wrapper[index="3"] .row div:nth-child(odd) {
+						background-color : yellow;
+				}
